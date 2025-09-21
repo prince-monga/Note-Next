@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+backend/__pycache__/
+backend/*.db
+backend/.env
+
+# Production builds
+frontend/build/
+backend/dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
